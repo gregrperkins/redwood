@@ -1,0 +1,14 @@
+{
+  "name": "redwood",
+  "version": "0.0.1",
+  "main": "redwood.js",
+  "readme": "Tagged logging.",
+  "devDependencies": {
+    "mocha": "~1.7",
+    "shoulda": "0.0.1",
+    "supervisor": "~0.5.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  }
+}
